@@ -39,6 +39,8 @@ class _DicePageState extends State<DicePage> {
         children: <Widget>[
           Expanded(
             child: FlatButton(
+              highlightColor: Colors.transparent,
+              splashColor: Colors.transparent,
               onPressed: () {
                 changeDiceFace();
               },
@@ -47,6 +49,8 @@ class _DicePageState extends State<DicePage> {
           ),
           Expanded(
             child: FlatButton(
+              highlightColor: Colors.transparent,
+              splashColor: Colors.transparent,
               onPressed: () {
                 changeDiceFace();
               },
